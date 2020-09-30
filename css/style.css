@@ -82,3 +82,13 @@ th {
     border-bottom: 2px solid #000000;
     border-radius: 3%;
 }
+
+/*Tabla nuestos valores*/
+
+td{
+    border: 1px solid #000000
+}
+
+.valores{
+    border: 1px solid #000000
+}
