@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Club Arquitetura</title>
+        <link rel="icon" type="imge/png" sizes="16x16" href="img/logo.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header role="banner">
+            <nav class="navbar navbar-expand-md navegacion">
+              <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo6.png" alt="Logo Arquitectura"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="club.html">El club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actividades2.html">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aranceles.html">Aranceles</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+		<main>
+			<div class="conteiner">
+				<h2>Contactate con nosotros</h2>
+				<p>¡Queremos estar cerca tuyo en todo momento, por eso, te dejamos este formulario para que te puedas contactar con nosotros!</p>
+				<!--Formulario-->
+				<form action="gracias.html" method="POST">
+					<fieldset>
+						<legend>CONTACTO</legend>
+						<label for="Nombre">Nombre</label>
+						<input type="text" name="Nombre">
+						<label for="Apellido">Apellido</label>
+						<input type="text" name="Apellido">
+						<br>
+						<br>
+						<label for="Mail">Mail</label>
+						<input type="text" name="Mail" placeholder="xxxxx@gmail.com">
+						<label for="Telefono">Telefono</label>
+						<input type="text" name="Telefono" placeholder="1141967167">
+						<br>
+						<br>
+						<label form="consulta a realizar">Motivo del contacto</label>
+						<br>
+						<br>
+						<input type="radio" name="opcion" value="consulta">Tengo una consulta
+						<input type="radio" name="opcion" value="pedido">Quiero ser socio
+						<br>
+						<br>
+						<label>¿Como te gustaria que te contactemos?</label>
+						<br>
+						<select name="contactar por">
+							<option value="mail">Por mail</option>
+							<option value="llamado">Llamado telefonico</option>
+							<option value="Whatsapp" selected="selected">Whatsapp</option>
+						</select>
+						<br>
+						<label for="observaciones">Dejanos aca tu mensaje</label>
+						<br>
+						<textarea name="mensaje"></textarea>
+						<br>
+						<input type="submit" name="boton" value="Enviar">
+						<input type="reset" value="Borrar datos">
+					</fieldset>
+				</form>
+				<p>Sentite comodo preguntando todo lo que quieras, sacate todas las dudas, estamos para vos!</p>
+			</div>
+		</main>
+		<footer>
+			<div class="conteiner">
+				<p>Este sitio fue creado por @Ignacio_Matteo</p>
+			</div>
+		</footer>
+	</body>
+</html>
