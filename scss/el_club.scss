@@ -1,0 +1,25 @@
+.services-1-wrap .service-1 {
+    padding: 20px 30px;
+    border: 1px solid $rojo-arquiclub;
+    border-right: none;
+    position: relative; }
+    @media (max-width: 1199.98px) {
+      .services-1-wrap .service-1 {
+        border: 1px solid $rojo-arquiclub;
+        margin-bottom: 30px; } }
+    .services-1-wrap .service-1 .number {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-weight: 400;
+      font-family: "Oswald", sans-serif;
+      color: $rojo-arquiclub; }
+    .services-1-wrap .service-1 .service-1-content .service-heading {
+      font-size: 1.5rem;
+      color: #000;
+      font-weight: 400; }
+    .services-1-wrap .service-1 .service-1-content p {
+      font-size: 15px; }
+  
+  .services-1-wrap [class^="col-"]:last-child .service-1 {
+    border-right: 1px solid #990606; }
