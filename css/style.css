@@ -46,6 +46,19 @@ th {
     padding: 2em 0;
   }
 
+/* Inscripciones actividades */
+
+.prueba {
+    border-right: 3px solid #000000;
+    color: #fff;
+}
+
+.prueba_2 {
+    color: #fff;
+}
+
+  /* index.html*/
+
 .media-feature {
     padding: 20px;
     -webkit-transition: .2s all ease-out;
@@ -58,11 +71,6 @@ th {
     margin-bottom: 30px;
     border: 1px solid #000000;
 }
-
-/*.media-feature .icon {
-    font-size: 60px;
-    color: #ff6d24;
-  }*/
 
   .media-feature h3 {
     font-size: 20px;
@@ -93,7 +101,7 @@ td{
     border: 1px solid #000000
 }
 
-/*carrousel */
+/*club.html*/
 
 .services-1-wrap .service-1 {
   padding: 20px 30px;
