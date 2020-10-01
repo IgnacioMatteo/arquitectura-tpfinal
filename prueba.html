@@ -40,108 +40,68 @@
         </header>
 		<div>
 			<div class="container">
-				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            	    <div class="carousel-inner">
-            	      	<div class="carousel-item active">
-            	      		<img class="d-block w-100" src="img/club/imagen-entrada.jpg" alt="Entrada 	3">
-            	      	</div>
-            	      	<div class="carousel-item">
-            	      	  	<img class="d-block w-100" src="img/club/imagen-plaza.jpg" alt="Plaza">
-            	      	</div>
-            	      	<div class="carousel-item">
-            	      	  	<img class="d-block w-100" src="img/club/imagen-tenis.jpg" alt="Cancha 	tenis">
-            	      	</div>
-            	    </div>
-            	    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" 	data-slide="prev">
-            	      	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            	      	<span class="sr-only">Previous</span>
-            	    </a>
-            	    <a class="carousel-control-next" href="#carouselExampleControls" role="button" 	data-slide="next">
-            	      	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-            	      	<span class="sr-only">Next</span>
-            	    </a>
-				</div>
-			</div>
-            <div class="site-section services-1-wrap">
-                <div class="container">
-                  <div class="row mb-5 justify-content-center text-center">
-                    <div class="col-lg-5">
-                        <h2 class="section-title mb-4 text-black">Nuestro <strong>Club</strong> cuenta con las siguientes instalaciones</h2>
-                    </div>
-                  </div>
-                  <div class="row no-gutters">
-                    <div class="col-lg-3 col-md-6">
-                      <div class="service-1">
-                        <div class="service-1-content">
-                          <h3 class="service-heading text-center">Salon social</h3>
-                          <p>aproximadamente 450m2, con Aire Acondicionado</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                      <div class="service-1">
-                        <div class="service-1-icon">
-                          <span class="flaticon-compass"></span>
-                        </div>
-                        <div class="service-1-content">
-                          <h3 class="service-heading text-center">Confiteria</h3>
-                          <p>Con snack bar y baños propios de damas y caballeros</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                      <div class="service-1">
-                        <div class="service-1-icon">
-                          <span class="flaticon-oil-platform"></span>
-                        </div>
-                        <div class="service-1-content">
-                          <h3 class="service-heading text-center">Salon de gimnasia</h3>
-                          <p>Edificio cerrado, aproximadamente 250m2</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                      <div class="service-1">
-                        <div class="service-1-icon">
-                          <span class="flaticon-crane"></span>
-                        </div>
-                        <div class="service-1-content">
-                          <h3 class="service-heading text-center">Vestuarios</h3>
-                          <p>Para damas, caballeros,socios y no socios</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-		    </div>
+<!-- INICIO FORMULARIO HTML -->
+<form method="POST" action="/index.php" class="needs-validation" novalidate>
+
+    <div class="form-row mt-5">
+        <div class="col-md-4 mb-3">
+            <label for="validarNombre">Nombre:<span class="red">*</span></label>
+            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
         </div>
-    </section>
-    <section class="section-cover cta" data-stellar-background-ratio="0.5" style="background-color: #fa3838;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 prueba">
-                  <div class="text-center align-content-md-center">
-                        <h4>Estamos para vos</h4>
-                        <p>Si tenes dudas o simplemente te queres inscribir, te invitamos a hacerlo apretando el boton</p>
-                        <p><a href="contacto.html" class="btn btn-dark">Formulario</a></p>
-                  </div>
-                </div>
-                <div class="col-md-6 prueba_2">
-                  <div class="text-center">
-                        <h4>Aranceles</h4>
-                        <p>¿Queres saber cuales son los aranceles del Club? Te invitamos a conocerlos en el siguiente boton</p>
-                        <p><a href="contacto.html" class="btn btn-dark">Formulario</a></p>
-                  </div>
-                </div>
-            </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+            <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
         </div>
-    </section>
-        <footer class="blockquote-footer">
-            <div>
-                <p>Este sitio fue creado por @Ignacio_Matteo</p>
-            </div>
-        </footer>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarEmail">Email:<span class="red">*</span></label>
+            <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarTelefono">Teléfono:</label>
+            <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarTema">Tema:<span class="red">*</span></label>
+            <select class="custom-select" id="validarTema" name="validarTema" required>
+                <option selected disabled value="">Selecciona...</option>
+                <option value="Problema con acceso a Web">Problema con acceso a Web</option>
+                <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                <option value="Eliminar mi usuario de la Web">Eliminar mi usuario de la Web</option>
+                <option value="Otras cuestiones">Otras cuestiones</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarAsunto">Asunto:</label>
+            <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+        <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+    </div>
+
+    <div class="form-group mb-10">
+        <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+        <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+    </div>
+
+</form>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>

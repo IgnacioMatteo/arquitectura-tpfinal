@@ -39,49 +39,54 @@
             </nav>
         </header>
 		<main>
-			<div class="conteiner">
-				<h2>Contactate con nosotros</h2>
-				<p>¡Queremos estar cerca tuyo en todo momento, por eso, te dejamos este formulario para que te puedas contactar con nosotros!</p>
-				<!--Formulario-->
-				<form action="gracias.html" method="POST">
-					<fieldset>
-						<legend>CONTACTO</legend>
-						<label for="Nombre">Nombre</label>
-						<input type="text" name="Nombre">
-						<label for="Apellido">Apellido</label>
-						<input type="text" name="Apellido">
-						<br>
-						<br>
-						<label for="Mail">Mail</label>
-						<input type="text" name="Mail" placeholder="xxxxx@gmail.com">
-						<label for="Telefono">Telefono</label>
-						<input type="text" name="Telefono" placeholder="1141967167">
-						<br>
-						<br>
-						<label form="consulta a realizar">Motivo del contacto</label>
-						<br>
-						<br>
-						<input type="radio" name="opcion" value="consulta">Tengo una consulta
-						<input type="radio" name="opcion" value="pedido">Quiero ser socio
-						<br>
-						<br>
-						<label>¿Como te gustaria que te contactemos?</label>
-						<br>
-						<select name="contactar por">
-							<option value="mail">Por mail</option>
-							<option value="llamado">Llamado telefonico</option>
-							<option value="Whatsapp" selected="selected">Whatsapp</option>
-						</select>
-						<br>
-						<label for="observaciones">Dejanos aca tu mensaje</label>
-						<br>
-						<textarea name="mensaje"></textarea>
-						<br>
-						<input type="submit" name="boton" value="Enviar">
-						<input type="reset" value="Borrar datos">
-					</fieldset>
-				</form>
-				<p>Sentite comodo preguntando todo lo que quieras, sacate todas las dudas, estamos para vos!</p>
+			<div class="site-section">
+				<div class="container">
+					<h2>Contactate con nosotros</h2>
+					<form action="gracias.html" method="POST">
+						<fieldset>
+							<legend>Completar</legend>
+							<div class="form-row mt-5">
+								<div class="col-md-4 mb-3">
+									<label for="Nombre">Nombre</label>
+									<input type="text" name="Nombre" id="nombre">
+								</div>
+								<div class="col-md-4 mb-3">
+									<label for="Apellido">Apellido</label>
+									<input type="text" name="Apellido" id="apellido">
+								</div>
+							</div>
+							<br>
+							<br>
+							<label for="Mail">Mail</label>
+							<input type="text" name="Mail" placeholder="xxxxx@gmail.com" id="mail">
+							<label for="Telefono">Telefono</label>
+							<input type="text" name="Telefono" placeholder="1141967167" id="telefono">
+							<br>
+							<br>
+							<label form="consulta a realizar">Motivo del contacto</label>
+							<br>
+							<br>
+							<input type="radio" name="opcion" value="consulta">Tengo una consulta
+							<input type="radio" name="opcion" value="pedido">Quiero ser socio
+							<br>
+							<br>
+							<label>¿Como te gustaria que te contactemos?</label>
+							<br>
+							<select name="contactar por">
+								<option value="mail">Por mail</option>
+								<option value="llamado">Llamado telefonico</option>
+								<option value="Whatsapp" selected="selected">Whatsapp</option>
+							</select>
+							<br>
+							<label for="observaciones">Dejanos aca tu mensaje</label>
+							<br>
+							<textarea name="mensaje"></textarea>
+							<br>
+							<input type="submit" name="boton" value="Enviar">
+							<input type="reset" value="Borrar datos">
+						</fieldset>
+					</form>
+				</div>
 			</div>
 		</main>
 		<footer>
