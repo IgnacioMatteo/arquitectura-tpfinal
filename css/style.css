@@ -128,3 +128,23 @@ td{
 
 .services-1-wrap [class^="col-"]:last-child .service-1 {
   border-right: 1px solid #990606; }
+
+  /*Footer*/
+
+.letra ul li a {
+    color: aliceblue;
+    text-decoration:none;
+}
+
+  .letra ul li a:hover {
+  color: red;
+      border-top: 1px solid aliceblue;
+  }
+
+  .nosotrs {
+    color: aliceblue;
+  }
+
+  .fondo {
+    background-color: red;
+}
