@@ -1,8 +1,8 @@
 {
-  "author": "Nombre e Email",
-  "description": "Descripcion de mi Package",
+  "author": "ignacio matteo",
+  "description": "sass",
   "license": "MIT",
-  "name": "nombre-de-mi-package",
+  "name": "sass",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "build:css": "npm run css && npm run css-autoprefixer",
